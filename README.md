@@ -39,22 +39,24 @@ A modern, interactive 3D portfolio website built with React, Three.js, and React
 ## 🛠️ Installation
 
 ### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+- **Node.js 18+** - [Download here](https://nodejs.org/)
+- **Git** - [Download here](https://git-scm.com/)
+- **Modern browser** (Chrome, Firefox, Safari, Edge)
 
-### Setup
+### Quick Setup
 ```bash
-# Clone the repository
+# Clone and setup
 git clone https://github.com/tairqaldy/three.js-3d-portfolio-website.git
-
-# Navigate to project directory
 cd three.js-3d-portfolio-website
-
-# Install dependencies
 npm install
+npm run dev
+```
 
+### Development Commands
+```bash
 # Start development server
 npm run dev
+# Opens at http://localhost:5173
 
 # Build for production
 npm run build
@@ -62,6 +64,48 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+### What You Need to Modify
+
+#### 1. **Personal Information** (`src/constants/index.js`)
+```javascript
+// Update your work experience, projects, and contact info
+export const workExperiences = [
+  {
+    id: 1,
+    name: "Your Company",
+    position: "Your Position", 
+    duration: "2023 - Present",
+    // ... update with your data
+  }
+]
+```
+
+#### 2. **Contact Form** (`src/sections/Contact.jsx`)
+```javascript
+// Update EmailJS service IDs (lines 29-38)
+emailjs.send(
+  'YOUR_SERVICE_ID',     // Replace with your EmailJS service ID
+  'YOUR_TEMPLATE_ID',    // Replace with your template ID
+  // ... your email data
+  'YOUR_PUBLIC_KEY',     // Replace with your EmailJS public key
+)
+```
+
+#### 3. **3D Models** (`public/models/`)
+- Replace `developer.glb` with your character model
+- Update `hacker-room.glb` with your workspace scene
+- Add your own 3D assets
+
+#### 4. **Styling** (`src/index.css`)
+- Modify colors in CSS variables
+- Update fonts and spacing
+- Customize component styles
+
+#### 5. **Content** (Various files)
+- Update text content in all sections
+- Replace images in `public/assets/`
+- Modify tech stack in About section
 
 ## 📁 Project Structure
 
