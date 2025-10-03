@@ -304,5 +304,5 @@ export const workExperiences = [
     title: "As a web development intern at Kashgari.kz, I worked on building and refining features for the startups platform using Expo. My responsibilities included developing responsive UI components, integrating APIs, and optimizing performance across web and mobile. During this role, I gained hands-on experience with React, React Native, Expo, JavaScript (ES6+), Node.js, and Git. Collaborating in a fast-paced startup environment taught me how to deliver practical solutions quickly while maintaining clean, scalable code.",
     icon: '/assets/kashgari.png',
     animation: 'salute',
-  },
+  },  
 ];
