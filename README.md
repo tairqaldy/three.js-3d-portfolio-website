@@ -10,7 +10,7 @@ A modern, interactive 3D portfolio website built with React, Three.js, and React
 ## ✨ Features
 
 ### 🎨 Interactive 3D Elements
-- **3D Hacker Room Scene** - Immersive workspace environment
+- **3D "Hacker" Computer Desk/Room Scene** - Immersive workspace environment
 - **Animated Developer Character** - Multiple animations (idle, salute, clapping, victory)
 - **Floating 3D Objects** - React logo, cubes, rings, and custom models
 - **Interactive Globe** - Shows location with custom markers
