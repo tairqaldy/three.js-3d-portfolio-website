@@ -100,11 +100,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Prompt Battle - Multiplayer Web Game',
+    desc: 'Multiplayer Web Game that challenges players to reverse-engineer AI image generation prompts. The game combines competitive gameplay with educational elements, helping players understand how AI interprets and generates visual content. It uses curated dataset of prompt and images, fontend-backend API WebSocket communication, ngrok for local-to-public domain access and modes for single and multiplayer.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'As a Software Engineering student at Fontys ICT, I developed this project to explore the intersection of artificial intelligence, game development, infrasctructure and cloud basics, media concepts, and modern software design & engineering (web technologies).',
+    href: 'https://www.youtube.com/watch?v=j7SLrSRv9DM',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
