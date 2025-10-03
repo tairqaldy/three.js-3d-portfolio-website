@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'BizDevKz - AI-powered change management educational platform',
+    title: 'BizDev.kz - AI-powered change management consulting product',
     desc: 'BizDev.kz is an AI-powered project developed under the Qaldy AI initiative. This platform focuses on improving organizational change management for businesses in Kazakhstan through intelligent tools and streamlined workflows.',
     subdesc:
       'Build with web technologies: HTML/CSS/JS with a touch of AI: Gemini API for generating content using context-aware prompts, hosted on the Qaldy AI infrastructure and secured by login/password access to control usage during client sessions.',
-    href: 'https://github.com/tairqaldy/BizDev.kz',
+    href: 'https://www.youtube.com/watch?v=ONpNwltVMeQ&t=1107s',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/logoqai.png',
     logoStyle: {
@@ -106,7 +106,7 @@ export const myProjects = [
       'As a Software Engineering student at Fontys ICT, I developed this project to explore the intersection of artificial intelligence, game development, infrasctructure and cloud basics, media concepts, and modern software design & engineering (web technologies).',
     href: 'https://www.youtube.com/watch?v=j7SLrSRv9DM',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/prompt-text.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -116,34 +116,44 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'SQL',
+        path: '/assets/sql.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'JavaScript',
+        path: 'assets/javascript.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Ngrok',
+        path: '/assets/ngrok.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'WebSocket',
+        path: '/assets/websocket.svg',
+      },
+      {
+        id: 5,
+        name: 'CSS',
+        path: '/assets/css.svg',
+      },
+      {
+        id: 6,
+        name: 'Cursor',
+        path: '/assets/cursor.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'GPA Calculator - AI-powered review and calculation tool',
+    desc: 'A modern, responsive, and user-friendly GPA Calculator built with HTML, CSS, and JavaScript. User can calculate and transform GPA to 4.0 scale from 5.0 and 100% grade systems and vice versa.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'This open-source project includes a fully functional GPA calculation system, template management, PDF export, and an integrated AI Assistant for helping students optimize their academic plans.',
+    href: 'https://github.com/tairqaldy/AI-GPA-Calculator',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/AI-GPA-Calculator-logo.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -155,34 +165,39 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'JavaScript',
+        path: '/assets/javascript.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Google',
+        path: '/assets/google.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'PDF',
+        path: '/assets/pdf.svg',
+      },
+      {
+        id: 5,
+        name: 'Math.js',
+        path: '/assets/function-math.svg',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'TEMK AI - Expertise Automation platform',
+    desc: 'TEMK AI is a dual-sided marketplace that transforms expert knowledge into accessible, interactive AI tools. It provides users with instant, actionable solutions crafted by real-world professionals, while empowering experts to digitize, scale, and monetize their unique skills without writing a single line of code.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+      'Built with Next.js, Firebase, and Google Genkit, TEMK AI offers a robust and scalable environment for creating and consuming expert-driven AI agents, bridging the gap between specialized knowledge and everyday problem-solving.',
     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/temk-ai-logo.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -192,8 +207,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Firebase Studio',
+        path: '/assets/firebase.svg',
       },
       {
         id: 2,
@@ -207,8 +222,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'javascript',
+        path: '/assets/javascript.svg',
       },
     ],
   },
