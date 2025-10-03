@@ -24,11 +24,11 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Tair Kaldybayev',
+    position: 'CTO at Qaldy AI',
+    img: 'assets/grid1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'test',
   },
   {
     id: 2,
@@ -228,11 +228,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'n8n Automations',
+    desc: 'This repository contains multiple n8n automation projects. Each workflow demonstrates a unique use case of AI agents, APIs, and automation tools.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'Built with OpenAI, SerpAI, Google Sheets, Wikipedia, Perplexity Sonar Deep Research, NewsAPI & GNews, Telegram bot API and SupadataAPI for real-time data fetching and processing.',
+    href: 'https://github.com/tairqaldy/n8n-automations',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -244,23 +244,67 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'n8n',
+        path: '/assets/n8n.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Google',
+        path: 'assets/google.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'telegram',
+        path: '/assets/telegram.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'SupadataAPI',
+        path: '/assets/supadata-api.png',
+      },
+    ],
+  },
+  {
+    title: 'WRO2025 - Autonomous Car "Double-decker" ',
+    desc: 'Project is an autonomous LEGO-based vehicle built for the World Robot Olympiad (WRO) 2025 Future Engineers challenge. This challenge focuses on creating a self-driving car that can navigate a dynamic course without human control',
+    subdesc:
+      'The robots primary goals are to drive autonomously while accurately detecting turns in the road, avoiding unexpected obstacles, and performing a parallel parking maneuver at the end of its run The final robot is built on a LEGO Technic chassis controlled by a Raspberry Pi 4 computer. By using open-source hardware and software, we embraced the spirit of the Future Engineers category—leveraging sensor fusion, computer vision, and a steering mechanism akin to a real car (rather than simple differential drive).',
+    href: 'https://github.com/tairqaldy/wro2025-autonomous-car',
+    texture: '/textures/project/project6.mp4',
+    logo: '/assets/wro2025-logo.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Limelight Camera',
+        path: '/assets/limelight-camera.png',
+      },
+      {
+        id: 2,
+        name: 'Raspberry Pi',
+        path: 'assets/raspberry-pi.svg',
+      },
+      {
+        id: 3,
+        name: 'OpenCV',
+        path: '/assets/opencv.svg',
+      },
+      {
+        id: 4,
+        name: 'LEGO',
+        path: '/assets/lego.svg',
+      },
+      {
+        id: 5,
+        name: 'Python',
+        path: '/assets/python.svg',
       },
     ],
   },
