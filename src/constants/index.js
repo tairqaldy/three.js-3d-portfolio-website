@@ -195,7 +195,7 @@ export const myProjects = [
     desc: 'TEMK AI is a dual-sided marketplace that transforms expert knowledge into accessible, interactive AI tools. It provides users with instant, actionable solutions crafted by real-world professionals, while empowering experts to digitize, scale, and monetize their unique skills without writing a single line of code.',
     subdesc:
       'Built with Next.js, Firebase, and Google Genkit, TEMK AI offers a robust and scalable environment for creating and consuming expert-driven AI agents, bridging the gap between specialized knowledge and everyday problem-solving.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    href: 'https://temk-ai-46303.web.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/temk-ai-logo.png',
     logoStyle: {
@@ -305,6 +305,95 @@ export const myProjects = [
         id: 5,
         name: 'Python',
         path: '/assets/python.svg',
+      },
+    ],
+  },
+  {
+    title: 'AntiBullying QSS',
+    desc: 'BizDev.kz is an AI-powered project developed under the Qaldy AI initiative. This platform focuses on improving organizational change management for businesses in Kazakhstan through intelligent tools and streamlined workflows.',
+    subdesc:
+      'Build with web technologies: HTML/CSS/JS with a touch of AI: Gemini API for generating content using context-aware prompts, hosted on the Qaldy AI infrastructure and secured by login/password access to control usage during client sessions.',
+    href: 'https://www.youtube.com/watch?v=ONpNwltVMeQ&t=1107s',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/logoqai.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'javascript',
+        path: '/assets/javascript.svg',
+      },
+      {
+        id: 2,
+        name: 'css',
+        path: 'assets/css.svg',
+      },
+      {
+        id: 3,
+        name: 'google',
+        path: '/assets/google.svg',
+      },
+      {
+        id: 4,
+        name: 'Tilda',
+        path: '/assets/tilda.svg',
+      },
+      {
+        id: 5,
+        name: 'Hoster',
+        path: '/assets/hoster.svg',
+      },
+    ],
+  },
+  {
+    title: 'kap.atomicqai.kz - Strategic Session Facilitation Tool',
+    desc: 'Atomic AI is an advanced AI-driven coaching tool developed under the Qaldy AI initiative. Designed for strategic session facilitation, it analyzes visual group outputs—such as flipcharts, maps, and idea models—to generate structured insights, synthesize team visions, and accelerate decision-making processes',
+    subdesc:
+      'Built with modern web technologies including Next.js, HTML/CSS/JS, and powered by Gemini API for multimodal (text + image) analysis. Atomic AI uses expert-crafted prompts and fine-tuned LLM configurations to interpret visuals, extract strategic patterns, and provide actionable summaries—all secured and hosted on Qaldy AI’s infrastructure for enterprise-level usage during client workshops.',
+    href: 'https://www.youtube.com/@tairqaldy', // add video link
+    texture: '/textures/project/project8.mp4',
+    logo: '/assets/logoqai.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'javascript',
+        path: '/assets/javascript.svg',
+      },
+      {
+        id: 2,
+        name: 'css',
+        path: 'assets/css.svg',
+      },
+      {
+        id: 3,
+        name: 'google',
+        path: '/assets/google.svg',
+      },
+      {
+        id: 4,
+        name: 'Tilda',
+        path: '/assets/tilda.svg',
+      },
+      {
+        id: 5,
+        name: 'Hoster',
+        path: '/assets/hoster.svg',
+      },
+      {
+        id: 6,
+        name: 'ps.kz',
+        path: '/assets/ps.kz.svg',
       },
     ],
   },
