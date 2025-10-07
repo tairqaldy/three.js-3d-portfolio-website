@@ -29,7 +29,7 @@ const About = () => {
   }, [])
 
   return (
-    <section className ="c-space my-12 xl:mb-6 2xl:mb-4" id="about">
+    <section className ="c-space my-12 xl:mb-6 2xl:mb-4" id="about2">
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full min-h-screen">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
@@ -248,8 +248,8 @@ const About = () => {
 
             <div className='xl:col-span-1 xl:row-span-2'>
                 <div className='grid-container'>
-                    <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top" />
-                    <div className='space-y-2'>
+                    {/* <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top" /> */}
+                    <div className='space-y-2 h-full flex flex-col justify-center items-center'>
                         <p className='grid-subtext text-center'>Contact Me</p>
                         <div className='copy-container' onClick={handleCopy}>
                             <img src={hasCopied ? "/assets/tick.svg" : "/assets/copy.svg"} alt="copy" />
