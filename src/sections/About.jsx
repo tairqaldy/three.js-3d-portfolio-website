@@ -36,8 +36,8 @@ const About = () => {
                     <img src="/assets/grid1.png" alt="grid-1" className="w-full h-[276px] h-fit object-contain" />
 
                     <div>
-                        <p className='grid-headtext'>Hi, I'm Tair</p>
-                        <p className='grid-subtext'>I’m a <span className='text-white font-medium'>Software Engineer</span> with <span className='text-white font-medium'>5 years</span> of experience, who turns ideas into real products. From AI-powered consulting tools to interactive web apps, I focus on building tech that creates real value and improves user experience.</p>
+                        <p className='grid-headtext'>hi again 👋</p>
+                        <p className='grid-subtext'>i’m tair kaldybayev — a <span className='text-white font-medium'>software engineer</span> and <span className='text-white font-medium'>founder</span> who loves turning ideas into working products. From AI-powered consulting tools to interactive web apps, I focus on building tech that creates real value and improves user experience.</p>
                     </div>
                 </div>
             </div>
