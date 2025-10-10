@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
@@ -8,6 +9,8 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import Experience from './sections/Experience'
 import TextHero from './sections/TextHero'
+import Essays from './sections/Essays'
+import EssayDetail from './sections/EssayDetail'
 
 const App = () => {
   const [gateOpen, setGateOpen] = useState(false)
@@ -60,22 +63,30 @@ const App = () => {
   return (
     <div className='min-h-screen bg-black'>
       <main className='w-full'>
-        <Navbar gateOpen={gateOpen} />
-        
-        {!gateOpen ? (
-          <TextHero onExploreMore={handleExploreMore} />
-        ) : (
-          <>
-            <TextHero onExploreMore={handleExploreMore} />
-            <Hero />
-            <About />
-            <Projects />
-            <Clients />
-            <Experience />
-            <Contact />
-            <Footer />
-          </>
-        )}
+        <Routes>
+          <Route path="/essays" element={<Essays />} />
+          <Route path="/essays/:slug" element={<EssayDetail />} />
+          <Route path="/" element={
+            <>
+              <Navbar gateOpen={gateOpen} />
+              
+              {!gateOpen ? (
+                <TextHero onExploreMore={handleExploreMore} />
+              ) : (
+                <>
+                  <TextHero onExploreMore={handleExploreMore} />
+                  <Hero />
+                  <About />
+                  <Projects />
+                  <Clients />
+                  <Experience />
+                  <Contact />
+                  <Footer />
+                </>
+              )}
+            </>
+          } />
+        </Routes>
       </main>
     </div>
   )

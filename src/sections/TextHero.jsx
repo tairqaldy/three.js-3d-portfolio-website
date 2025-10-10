@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './TextHero.css'
 import DecryptedText from '../components/DecryptedText'
 import GradientText from '../components/GradientText'
@@ -97,7 +98,7 @@ const TextHero = ({ onExploreMore }) => {
         </div>
 
         <div className="links mt-12">
-          <a href="/essays">essays →</a>
+          <Link to="/essays">essays →</Link>
         </div>
 
         <div className="social-links">

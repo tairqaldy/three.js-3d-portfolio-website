@@ -439,3 +439,62 @@ export const workExperiences = [
     animation: 'salute',
   },  
 ];
+
+export const essays = [
+  {
+    id: 1,
+    slug: "young-but-rational",
+    title: "young but rational",
+    date: "october 2025",
+    category: "reflection",
+    coverImage: "/assets/project-logo1.png",
+    excerpt: "i always cheated on my school essays, but this is my attempt to write something meaningful.",
+    content: `last week i flew to kazakhstan for a tech conference. i was there to talk about ai, automation, and the future of work — but what i found was something else entirely.
+
+i met high-school kids who were building apps, students who were running startups, and teachers who were pushing boundaries i didn't even know existed. the talent density in schools like nis, fizmat, and nspm (рфмш) is incredible. these aren't just students — they're builders, creators, problem-solvers.
+
+but here's what struck me most: they're not just technically skilled. they're thinking about real problems. they're asking questions about how technology can serve people, not the other way around. they're building things that matter.
+
+i've been thinking about this a lot since i got back. we spend so much time talking about the future of work, about automation, about ai replacing jobs. but what if we're asking the wrong questions? what if the real question isn't about what technology can do, but about what we want it to do?
+
+these students are showing us something important. they're not just learning to code — they're learning to think. they're learning to ask why, not just how. they're learning that technology is a tool, not an end.
+
+i think that's what we need more of. not just technical skills, but the wisdom to use them well. not just innovation, but innovation that serves human flourishing.
+
+maybe that's what being "young but rational" really means. it's not about being naive or overly optimistic. it's about having the energy to build and the wisdom to build the right things.
+
+these students are showing us the way forward. they're not just preparing for the future — they're creating it. and they're doing it with both ambition and humility, with both passion and reason.
+
+that's something worth learning from.`
+  },
+  {
+    id: 2,
+    slug: "building-with-purpose",
+    title: "building with purpose",
+    date: "november 2025",
+    category: "mythoughts",
+    coverImage: "/assets/project-logo2.png",
+    excerpt: "why i build things and what i've learned about making ideas actually work in the real world.",
+    content: `i used to build things just to see if i could. now i build things to see if they should.
+
+there's a difference, and it took me a while to figure it out.
+
+when you build something just because you can, you end up with a lot of cool demos that nobody uses. when you build something because it should exist, you end up with tools that people actually need.
+
+i've been thinking about this a lot lately, especially as i work on ai360 and other projects at qaldy ai. every line of code, every feature, every decision — they all matter. not just because they affect performance or user experience, but because they affect real people trying to solve real problems.
+
+the best advice i ever got about building things was simple: start with the problem, not the solution. it sounds obvious, but it's harder than it sounds. we get excited about technologies, about possibilities, about what we could build. but the real question is always: what should we build?
+
+that's why i'm obsessed with problem-solving and critical thinking. not because they're buzzwords, but because they're the difference between building something cool and building something useful.
+
+every project i work on now starts with the same question: what problem are we actually solving? who are we solving it for? why does this matter?
+
+if i can't answer those questions clearly, i don't start coding. i go back to the drawing board until i can.
+
+because the world doesn't need more cool demos. it needs more tools that actually work, that actually help, that actually make people's lives better.
+
+that's what i want to build. that's what i want to be known for. not just for making things work, but for making things work that matter.
+
+and that's why i'm curious about what happens when an idea touches the real world. because that's where you find out if it was worth building in the first place.`
+  },
+];
