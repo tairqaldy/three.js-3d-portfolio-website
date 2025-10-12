@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './sections/Navbar'
@@ -63,6 +64,7 @@ const App = () => {
   return (
     <div className='min-h-screen bg-black'>
       <main className='w-full'>
+        <Analytics />
         <Routes>
           <Route path="/essays" element={<Essays />} />
           <Route path="/essays/:slug" element={<EssayDetail />} />
