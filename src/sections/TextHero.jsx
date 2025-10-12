@@ -66,25 +66,24 @@ const TextHero = ({ onExploreMore }) => {
          and enable businesses without an IT team to quickly optimize their processes. */}
 
         <p> 
-          right now i'm studying software engineering at fontys ict (nl) and developing 
-          <span className="text-white"> ai360</span> (by <span className="text-white">qaldy ai</span>) 
-          — lowering the technical threshold for implementing automation and enable businesses without an 
-          IT team to quickly optimize their processes using business development expertise and AI.
+          right now i'm pursuing a bachelor's in software design & engineering at <span className="text-white">fontys ict</span> and developing 
+          projects for <span className="text-white">qaldy ai</span> {/* -removed <span className="text-white"> ai360</span> */}
+          — lowering the technical threshold by implementing automation workflows for businesses and optimizing their processes with AI and business expertise.
         </p>
         
         <p>
-          before that, i was that kid who couldn't pick between design, code, and business — 
-          so i just mixed them all. turns out, that's called <GradientText text='"product development."' colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]} />
+          before that, i was that kid who couldn't pick between design, code, and business, so i just mixed them all. 
+          turns out, that's called <GradientText text='"product development."' colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]} />
         </p>
 
         <p>
-          these days i'm obsessed with problem-solving, critical thinking, and making ideas actually work — whether it's an automation workflow, a portfolio website, or an app everyone uses daily.
+        i'm obsessed with that feeling when everything clicks — like when you've been debugging for hours, then one console.log reveals the whole problem, and suddenly you're refactoring the entire codebase at 2am because now you see how it should actually work. 
         </p>
 
         <div className="faq">
           <p>
             <span className="faq-label">faq:</span> why do i build so much stuff?<br />
-            because i'm curious what happens when an idea touches the real world.
+            i can't stop tinkering. I'll rebuild my entire portfolio with react and three.js just because "it needed more dimension."
           </p>
         </div>
 

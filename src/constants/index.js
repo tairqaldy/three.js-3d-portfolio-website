@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Tair Kaldybayev',
-    position: 'CTO at Qaldy AI',
-    img: 'assets/grid1.png',
+    name: 'Timur Kaldybayev Nurlanovich',
+    position: 'MBA | CEO at Qaldy AI',
+    img: 'assets/timur-kaldybayev.png',
     review:
-      'test',
+      'Tair’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our consulting webtools. He’s a true professional! Fantastic work.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'John Doe',
+    position: 'Founder of "Company Name" Company',
+    img: 'assets/placeholder-image.png', //added placeholder image instead of review2.png
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Tair’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
   {
     id: 3,
     name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    position: 'Principal of "Name" School ',
+    img: 'assets/placeholder-image.png', //added placeholder image instead of review3.png
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Tair. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'John Doeas',
+    position: 'CEO of "NAME" Enterprises',
+    img: 'assets/placeholder-image.png', //added placeholder image instead of review4.png
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Tair was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
 
@@ -225,10 +225,15 @@ export const myProjects = [
         name: 'javascript',
         path: '/assets/javascript.svg',
       },
+      {
+        id: 5,
+        name: 'google',
+        path: '/assets/google.svg',
+      },
     ],
   },
   {
-    title: 'n8n Automations',
+    title: 'n8n Automations - AI Agents, APIs, and Tools',
     desc: 'This repository contains multiple n8n automation projects. Each workflow demonstrates a unique use case of AI agents, APIs, and automation tools.',
     subdesc:
       'Built with OpenAI, SerpAI, Google Sheets, Wikipedia, Perplexity Sonar Deep Research, NewsAPI & GNews, Telegram bot API and SupadataAPI for real-time data fetching and processing.',
@@ -261,6 +266,12 @@ export const myProjects = [
         id: 4,
         name: 'SupadataAPI',
         path: '/assets/supadata-api.png',
+      },
+      ,
+      {
+        id: 5,
+        name: 'chatgpt',
+        path: '/assets/chatgpt.svg',
       },
     ],
   },
@@ -309,13 +320,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'AntiBullying QSS',
-    desc: 'BizDev.kz is an AI-powered project developed under the Qaldy AI initiative. This platform focuses on improving organizational change management for businesses in Kazakhstan through intelligent tools and streamlined workflows.',
+    title: 'AntiBullying QSS - Compliance Management System',
+    desc: 'Developed Antibullying Compliance Management System For Quantum STEM School with low-code platform Make.com and Google infrastructure.',
     subdesc:
-      'Build with web technologies: HTML/CSS/JS with a touch of AI: Gemini API for generating content using context-aware prompts, hosted on the Qaldy AI infrastructure and secured by login/password access to control usage during client sessions.',
-    href: 'https://www.youtube.com/watch?v=ONpNwltVMeQ&t=1107s',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/logoqai.png',
+      'This system is used to track and manage antibullying compliance requests students submitted to the school administration, resolving registration of incidents and managing the status of the requests.',
+    href: 'https://www.youtube.com/@tairqaldy',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/quantum-logo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -325,28 +336,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'javascript',
-        path: '/assets/javascript.svg',
-      },
-      {
-        id: 2,
-        name: 'css',
-        path: 'assets/css.svg',
-      },
-      {
-        id: 3,
         name: 'google',
         path: '/assets/google.svg',
       },
       {
-        id: 4,
-        name: 'Tilda',
-        path: '/assets/tilda.svg',
+        id: 2,
+        name: 'telegram',
+        path: '/assets/telegram.svg',
       },
       {
-        id: 5,
-        name: 'Hoster',
-        path: '/assets/hoster.svg',
+        id: 3,
+        name: 'make.com',
+        path: '/assets/make.svg',
+      },
+      {
+        id: 4,
+        name: 'chatgpt',
+        path: '/assets/chatgpt.svg',
       },
     ],
   },
@@ -392,8 +398,8 @@ export const myProjects = [
       },
       {
         id: 6,
-        name: 'ps.kz',
-        path: '/assets/ps.kz.svg',
+        name: 'react',
+        path: '/assets/react.svg',
       },
     ],
   },
@@ -431,35 +437,153 @@ export const workExperiences = [
   },
   {
     id: 3,
+    name: 'Nazarbayev University "Alumni Association" Internship',
+    position: 'Web Developer & Data Analyst Intern',
+    duration: '2024 june — 2024 july',
+    title: "During the Internship I finished the in-scope goals, updated information in alumni association database with 5000+ records and worked on nualumni.kz website design",
+    icon: '/assets/nu-alumni-logo.png',
+    animation: 'salute',
+  },
+  {
+    id: 4,
     name: 'Quantum STEM',
     position: 'President and Graduate',
     duration: '2021 sept — 2025 jun',
     title: "First President (2022-2023). Leader of Antibullying committee. Studied the Advanced Placement (AP) and Cambridge International AS & A-level program, receiving exact grades: Calculus BC (5), Statistics (4)",
     icon: '/assets/quantum-logo.png',
-    animation: 'salute',
+    animation: 'clapping',
   },
   {
-    id: 4,
+    id: 5,
     name: '"QUANT | FTC 21062" Robotics Team',
     position: 'Programmer, Driver & Builder',
     duration: '2022 sept - 2024 june',
     title: "Programmer, Driver & Builder. Developed the robot's software and hardware, including the autonomous driving system, the robot's movement system, and the robot's hardware & cable management design with FIRST Robotics Components, winning 2023 Nurorda FTC Championship in a team of 7 people. Hours spent: 300+ (2-5h/day).",
     icon: '/assets/quant-logo.png',
-    animation: 'clapping',
+    animation: 'salute',
   },
   {
-    id: 4,
+    id: 6,
     name: '"STEP" Computer Academy',
     position: 'Graduate & Assistant',
     duration: '2018 aug — 2021 may',
     title: "Graduated from the 'STEP' Computing Academy in 2021. After graduation, I worked as an assistant for the introduction to programming course, where I helped students with their projects and assignments.",
     icon: '/assets/step-logo.png',
-    animation: 'salute',
+    animation: 'clapping',
   },
 ];
 
 export const essays = [
   {
+    id: 1,
+    slug: "obsessed-with-coding",
+    title: "obsessed with coding",
+    date: "october 2025",
+    category: "thoughts",
+    coverImage: "/assets/project-logo2.png",
+    excerpt: "how i became obsessed with the process.",
+    content: 
+`
+>It's 6:47am and I've been typing for the past hour and a half. 
+Not because I set an alarm, not because I have a deadline — I woke up with a solution to yesterday's problem and couldn't not try it. 
+My coffee's gone cold. I haven't checked my phone. This is what obsession looks like.
+              
+Two years ago, I couldn't even finish a youtube web development course.
+
+I'd watch the first video, maybe the second. 
+Bookmark it in my "watch later" playlist with 47 other tutorials. 
+Tell myself "I'll continue tomorrow." But tomorrow I'd just find a different course — one that looked easier, more beginner-friendly, more... something. 
+
+The idea of coding felt like homework — something I was supposed to want to do, but the "supposed to" killed any actual desire. 
+I'd sit there following along, typing what the instructor typed, and feel nothing. No pull, no curiosity, just the weight of "I should learn this."
+
+At some point I felt like I had no control over my own life. I burned out. Not because I did too much, but because I did f*cking nothing. 
+I was stuck in this loop of consuming content, convincing myself I was "learning," but never actually building anything.
+
+Eventually I just gave up. 
+
+"You're too dumb for this," I told myself.
+
+---
+
+Later — I don't even remember how much later — I was in a bookstore, looking at the section where all the technical literature was displayed. 
+Rows of programming books, web development guides, framework documentation. And instead of feeling inspired, I felt this wave of frustration.
+
+WHY? Why did I need to absorb all of this before I could start? 
+Why did learning feel like I needed to download an entire library into my brain before writing a single line of code?
+
+I looked away from the tech section, and that's when I saw it. 
+"The 80/20 Principle" by Richard Koch. Picked it up, read the first few pages right there in the aisle:
+
+---
+
+>"..Roughly 80% of outcomes result from 20% of efforts."
+
+---
+
+Something broke inside me in that moment.
+
+I didn't need to know everything to start. I could do it right away. 
+I just needed to know what to start with. The 20% that would actually matter.
+
+After all those useless tutorials that never helped but just confused and bloated my mind, I finally started DOING.
+
+Now I can't stop. Not in the "I'm forcing myself to build discipline" way, but in the "wait it's 3am?" way. 
+
+---
+
+###Last week I rebuilt my entire portfolio with three.js 
+
+because flat design suddenly felt wrong. 
+Not for a grade, not for a client, just because I saw how it could be better and had to see if I could make it real.
+
+The difference isn't skill or knowledge. It's that I stopped trying to "learn coding" and started trying to solve problems that actually mattered to me. 
+The youtube tutorial wanted to teach me loops and functions. My projects needed those things to work. One felt like studying. The other felt like building.
+
+These days I'm the person who wakes up at 6am not because of discipline, but because my brain solved something while I slept and I need to see if it actually works.
+I'll start fixing a small bug and emerge four hours later having refactored the entire codebase because one console.log revealed how it should have been built all along.
+
+---
+
+###People ask "how do you stay motivated?" 
+
+Honestly, I think they're asking the wrong question. It's not about motivation anymore. 
+When you're actually building things that matter to you, you don't need to force yourself. 
+You just... do it. The work stops feeling like work. The pull becomes natural. 
+The question changes from "how do I make myself do this?" to "how do I make myself stop?"
+
+I didn't fall in love with coding. 
+I fell in love with making ideas real, and coding happened to be the fastest path from 
+"what if..." to "holy sh*t it works!"
+
+That youtube course is still in my watch later playlist. I never finished it. But I've shipped more than twenty projects since then.
+
+---
+
+### Here's what I'd tell someone just starting: 
+
+The gap between watching and doing is the hardest gap to cross, but it's also the smallest. 
+
+It's not about knowledge or skill or time. 
+It's about permission. Allow yourself to build something before you're "ready," before it's "right," before you "really understand."
+
+If you're still collecting courses, still waiting to feel "ready," still looking for the perfect tutorial — stop.
+You're not protecting yourself from failure. You're protecting yourself from starting. I wasted a year doing that. Don't be me.
+
+No one is coming to tell you you're ready. You have to decide that for yourself.
+
+The thing that finally worked wasn't the right course or the right book. 
+It was deciding that building something broken was better than building nothing at all. 
+Your first project will be messy. That's the point. Messy and real beats perfect and imaginary every time.
+
+Pick something. Build it. It will be bad. Build it anyway. 
+
+I wish I could tell my past self this.
+`
+  },
+];
+
+{/* {
     id: 1,
     slug: "young-but-rational",
     title: "young but rational",
@@ -484,35 +608,4 @@ maybe that's what being "young but rational" really means. it's not about being 
 these students are showing us the way forward. they're not just preparing for the future — they're creating it. and they're doing it with both ambition and humility, with both passion and reason.
 
 that's something worth learning from.`
-  },
-  {
-    id: 2,
-    slug: "building-with-purpose",
-    title: "building with purpose",
-    date: "november 2025",
-    category: "mythoughts",
-    coverImage: "/assets/project-logo2.png",
-    excerpt: "why i build things and what i've learned about making ideas actually work in the real world.",
-    content: `i used to build things just to see if i could. now i build things to see if they should.
-
-there's a difference, and it took me a while to figure it out.
-
-when you build something just because you can, you end up with a lot of cool demos that nobody uses. when you build something because it should exist, you end up with tools that people actually need.
-
-i've been thinking about this a lot lately, especially as i work on ai360 and other projects at qaldy ai. every line of code, every feature, every decision — they all matter. not just because they affect performance or user experience, but because they affect real people trying to solve real problems.
-
-the best advice i ever got about building things was simple: start with the problem, not the solution. it sounds obvious, but it's harder than it sounds. we get excited about technologies, about possibilities, about what we could build. but the real question is always: what should we build?
-
-that's why i'm obsessed with problem-solving and critical thinking. not because they're buzzwords, but because they're the difference between building something cool and building something useful.
-
-every project i work on now starts with the same question: what problem are we actually solving? who are we solving it for? why does this matter?
-
-if i can't answer those questions clearly, i don't start coding. i go back to the drawing board until i can.
-
-because the world doesn't need more cool demos. it needs more tools that actually work, that actually help, that actually make people's lives better.
-
-that's what i want to build. that's what i want to be known for. not just for making things work, but for making things work that matter.
-
-and that's why i'm curious about what happens when an idea touches the real world. because that's where you find out if it was worth building in the first place.`
-  },
-];
+  }, */}

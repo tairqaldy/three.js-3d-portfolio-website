@@ -6,7 +6,7 @@ import './Essays.css'
 const Essays = () => {
   const [selectedCategory, setSelectedCategory] = useState('all')
 
-  const categories = ['all', 'reflection', 'mythoughts', 'projects', 'ideas']
+  const categories = ['all', 'thoughts', 'reflection']
   const filteredEssays = selectedCategory === 'all' 
     ? essays 
     : essays.filter(essay => essay.category === selectedCategory)
@@ -20,7 +20,7 @@ const Essays = () => {
             ← back to home
           </Link>
           <h1>essays</h1>
-          <p>I broke every “good student” rule — procrastinated, skipped, improvised — yet kept winning. Maybe success isn’t about discipline; maybe it’s about understanding leverage.</p>
+          <p>I broke every “good student” rule: procrastinated, skipped, improvised, and yet kept winning. Maybe success isn’t about discipline; maybe it’s about understanding leverage.</p>
         </div>
 
         {/* Category Filter */}

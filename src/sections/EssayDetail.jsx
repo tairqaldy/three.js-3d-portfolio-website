@@ -41,9 +41,32 @@ const EssayDetail = () => {
 
         {/* Essay Content */}
         <div className="essay-content">
-          {essay.content.split('\n\n').map((paragraph, index) => (
-            <p key={index}>{paragraph.trim()}</p>
-          ))}
+          {essay.content.split('\n\n').map((block, index) => {
+            const trimmed = block.trim();
+            
+            // Small headers: ### Header Text
+            if (trimmed.startsWith('###')) {
+              return <h3 key={index} className="essay-subheading">{trimmed.replace('###', '').trim()}</h3>;
+            }
+            
+            // Visual separator: ---
+            if (trimmed === '---' || trimmed.match(/^-{3,}$/)) {
+              return <hr key={index} className="essay-divider" />;
+            }
+            
+            // Indented paragraph (красная строка): starts with >
+            if (trimmed.startsWith('>')) {
+              return <p key={index} className="essay-indent">{trimmed.replace('>', '').trim()}</p>;
+            }
+            
+            // Emphasized paragraph: starts with **
+            if (trimmed.startsWith('**') && trimmed.endsWith('**')) {
+              return <p key={index} className="essay-emphasis">{trimmed.slice(2, -2)}</p>;
+            }
+            
+            // Regular paragraph
+            return <p key={index}>{trimmed}</p>;
+          })}
         </div>
       </div>
     </section>

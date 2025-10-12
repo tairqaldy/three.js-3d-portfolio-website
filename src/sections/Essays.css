@@ -189,6 +189,37 @@
   margin-bottom: 0;
 }
 
+/* Small headers within essay */
+.essay-content h3.essay-subheading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #eaeaea;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+/* Visual divider */
+.essay-content hr.essay-divider {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 2.5rem 0;
+  width: 60%;
+  margin-left: 0;
+}
+
+/* Indented paragraph (красная строка) */
+.essay-content p.essay-indent {
+  text-indent: 2em;
+}
+
+/* Emphasized paragraph */
+.essay-content p.essay-emphasis {
+  color: #eaeaea;
+  font-weight: 500;
+  font-style: italic;
+}
+
 /* Not Found */
 .essay-not-found {
   text-align: center;
