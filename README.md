@@ -493,9 +493,9 @@ See the [LICENSE](LICENSE) file for the boring legal stuff.
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/tairqaldy/threejs-3d-portfolio-tairqaldy?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tairqaldy/threejs-3d-portfolio-tairqaldy?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/tairqaldy/threejs-3d-portfolio-tairqaldy?style=social)
+![GitHub stars](https://img.shields.io/github/stars/tairqaldy/threejs-3d-portfolio-website?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tairqaldy/threejs-3d-portfolio-website?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/tairqaldy/threejs-3d-portfolio-website?style=social)
 
 ---
 
