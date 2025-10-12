@@ -111,7 +111,7 @@ Navigate through:
 
 | 3D Scene | Responsive Design |
 |----------|-------------------|
-| ![Hero Demo](public/assets/hero-section-screenshot.png) | ![Mobile](public\assets\hero-section-screenshot-phone.png) |
+| ![Hero Demo](public/assets/hero-section-screenshot.png) | ![Mobile](public/assets/hero-section-screenshot-phone.png) |
 
 *Screenshots from the actual portfolio - what you see is what you get*
 
