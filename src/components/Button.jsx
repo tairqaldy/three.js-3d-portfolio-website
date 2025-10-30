@@ -13,7 +13,7 @@ const Button = ({ name, isBeam = false, containerClass, href }) => {
       </a>
     );
   }
-
+ 
   // Otherwise render as a button
   return (
     <button className={`btn ${containerClass}`}>
