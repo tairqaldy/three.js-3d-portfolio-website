@@ -32,7 +32,7 @@ const Hero = () => {
 
     return (
         <section className='min-h-screen w-full flex flex-col relative' id="about">
-            <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
+            {/* <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
                 <p className='sm:text-3xl text-xl font-medium text-white text-center font-generalsans'>
                     My space to Think, Build & Reflect
                 </p>
@@ -66,6 +66,11 @@ const Hero = () => {
                     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
+
+            Commented out due to crash issues 
+            ThreeJS crash issues when trying to render the HackerRoom component
+            
+            */}
         </section>
     )
 }

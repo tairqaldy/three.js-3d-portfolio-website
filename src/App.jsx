@@ -75,10 +75,11 @@ const App = () => {
               ) : (
                 <>
                   <TextHero onExploreMore={handleExploreMore} />
-                  <Hero />
+                  {/* <Hero /> Commented out due to crash issues 
+                  ThreeJS crash issues when trying to render the HackerRoom component */}
                   <About />
                   <Projects />
-                  <Clients />
+                  {/* <Clients /> Commented out due to irrelevant content*/}
                   <Experience />
                   <Contact />
                   <Footer />

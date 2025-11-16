@@ -58,6 +58,43 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'CodeArchitect MCP - AI with System Design Intelligence',
+    desc: 'CodeArchitect MCP is a Model Context Protocol (MCP) server that solves critical problems developers face: losing valuable AI conversations and dealing with AI hallucinations that ruin codebases. It empowers coding agents with deep system design intelligence by combining structured conversation storage, curated design principles & patterns, and enhanced context retrieval.',
+    subdesc:
+      'Built with TypeScript, Node.js, and MCP SDK. Features session storage with proprietary TOON format optimization (~40% token reduction), improving coding agents\' capabilities by at least 40%. Published on npm with 350+ downloads. Includes complete MCP server implementation, landing page, comprehensive documentation, and npm package distribution.',
+    href: 'https://codearchitect-mcp.vercel.app/',
+    texture: '/textures/project/project9.mp4',
+    logo: '/assets/codearchitect-mcp-logo.png',
+    logoStyle: {
+      backgroundColor: '#000000',
+      border: '0.2px solidrgb(24, 130, 27)',
+      boxShadow: '0px 0px 60px 0px rgba(45, 139, 28, 0.53)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 2,
+        name: 'JavaScript',
+        path: '/assets/javascript.svg',
+      },
+      {
+        id: 4,
+        name: 'GitHub',
+        path: '/assets/github.svg',
+      },
+      {
+        id: 5,
+        name: 'MCP',
+        path: '/assets/mcp.jpg',
+      },
+    ],
+  },
+  {
     title: 'BizDev.kz - AI-powered change management consulting product',
     desc: 'BizDev.kz is an AI-powered project developed under the Qaldy AI initiative. This platform focuses on improving organizational change management for businesses in Kazakhstan through intelligent tools and streamlined workflows.',
     subdesc:
